@@ -1,0 +1,59 @@
+#playground {
+    background-color: #333;
+    padding: 10px;
+}
+
+#dashboard {
+    display: block;
+    margin: auto;
+    background-color: #FFF;
+}
+
+#palette {
+    width: 800px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+#palette li {
+    display: inline-block;
+}
+
+.colors {
+    content: " ";
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: #FFF;
+    margin: 3px;
+    border: 3px solid #333;
+}
+
+.colors.active {
+    border: 3px solid #FFF;
+}
+
+.colors.red {
+    background-color: rgba(231, 76, 60,1.0);
+}
+
+.colors.orange {
+    background-color: rgba(230, 126, 34,1.0);
+}
+
+.colors.blue {
+    background-color: rgba(52, 152, 219,1.0);
+}
+
+.colors.yellow {
+    background-color: rgba(241, 196, 15,1.0);
+}
+
+.colors.green {
+    background-color: rgba(26, 188, 156,1.0);
+}
+
+.colors.amethist {
+    background-color: rgba(155, 89, 182,1.0);
+}

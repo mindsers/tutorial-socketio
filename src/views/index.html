@@ -1,0 +1,25 @@
+<doctype html/>
+<html>
+    <head>
+        <title>Paint</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/css/main.css">
+    </head>
+    <body>
+        <div id="playground">
+            <canvas id="dashboard" height="600" width="800"></canvas>
+            <div id="palette">
+                <ul>
+                    <li><a class="colors red" data-color="rgba(231, 76, 60,1.0)" href="#"></a></li>
+                    <li><a class="colors blue" data-color="rgba(52, 152, 219,1.0)" href="#"></a></li>
+                    <li><a class="colors orange" data-color="rgba(230, 126, 34,1.0)" href="#"></a></li>
+                    <li><a class="colors yellow" data-color="rgba(241, 196, 15,1.0)" href="#"></a></li>
+                    <li><a class="colors green" data-color="rgba(26, 188, 156,1.0)" href="#"></a></li>
+                    <li><a class="colors amethist" data-color="rgba(155, 89, 182,1.0)" href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/static/js/main.js"></script>
+    </body>
+</html>
