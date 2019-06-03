@@ -1,4 +1,4 @@
-MindsersIT-Socket.IO
+MindsersIT Tutorials - Socket.IO
 =====================
 
 Sources of courses about socket.io.
